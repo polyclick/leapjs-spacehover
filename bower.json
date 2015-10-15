@@ -1,0 +1,23 @@
+{
+  "name": "leapjs-spacehover",
+  "private": true,
+  "dependencies": {
+    "jquery": "~2.1.1",
+    "modernizr": "~2.8.1",
+    "threejs": "*",
+    "dat-gui": "~0.5.1",
+    "gsap": "~1.17.0",
+    "underscore": "~1.8.3",
+    "leapjs": "~0.6.4",
+    "leapjs-plugins": "~0.1.11"
+  },
+  "devDependencies": {
+    "chai": "~3.2.0",
+    "mocha": "~2.2.5"
+  },
+  "overrides": {
+    "leapjs-plugins": {
+      "main": "main/hand-entry/leap.hand-entry.js"
+    }
+  }
+}
